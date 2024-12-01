@@ -1,28 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Licuadora</title>
+    <title>Mi Bot para Discord</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .main-image {
+            width: 100%;
+            height: auto;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #f04a4a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #d03f3f;
+        }
+        .navigation {
+            margin: 20px 0;
+        }
+        .navigation a {
+            margin: 0 10px;
+            color: #f04a4a;
+            text-decoration: none;
+        }
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        .footer-icons {
+            margin: 20px 0;
+        }
+        .footer-icons img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <div id="blender" class="blender">
-            <div class="blender-button" id="blender-button" onclick="encenderLicuadora ()"></div>
-            <h1>prendeme</h1>
+        <div class="navigation">
+            <a href="#support">Soporte</a>
+            <a href="#commands">Comandos</a>
+            <a href="#wiki">Wiki</a>
+            <a href="#status">Estado</a>
+            <a href="#premium">Premium</a>
+            <a href="#login">Iniciar Sesión</a>
+        </div>
+        <img src="tu-imagen.png" alt="Imagen principal" class="main-image">
+        <h1>Tu adorable compañero neko para Discord</h1>
+        <p>Anime, moneda, juegos, utilidades y mucho más</p>
+        <a href="#add-bot" class="btn">Agregar el bot</a>
+        <a href="#manage-servers" class="btn">Administrar servidores</a>
+        <p>Confiado por más de 3 millones de servidores</p>
+        <div class="footer-icons">
+            <img src="icon1.png" alt="Icono 1">
+            <img src="icon2.png" alt="Icono 2">
+            <img src="icon3.png" alt="Icono 3">
+            <!-- Agrega más iconos si es necesario -->
         </div>
     </div>
-    <audio id="blender-button-sound" src="sound/botonLicuadora.mp3" type="audio/mpeg"></audio>
-    <audio id="blender-sound" src="sound/licuadora.mp3" type="audio/mpeg" loop></audio>
-
-    
-
-
-
-
-    <h1>brian. Creado con amor por mi si :) </h1>
-    <script src="js/script.js"></script>
 </body>
 </html>
